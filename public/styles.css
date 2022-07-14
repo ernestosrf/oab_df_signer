@@ -478,5 +478,158 @@ span {
     position: absolute;
     width: 189px;
     height: 6px;
-    top: 3088px;
+    top: 3068px;
+}
+
+/* SEGMENTS */
+
+.segments h2 {
+    position: absolute;
+    width: 481px;
+    height: 39px;
+    left: 472px;
+    top: 3191px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #545454;    
+}
+
+.segments p {
+    position: absolute;
+    width: 464px;
+    height: 25px;
+    left: 480px;
+    top: 3245px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #545454;
+}
+
+#home {
+    position: absolute;
+    width: 109px;
+    height: 110px;
+    left: 242px;
+    top: 3406px;
+}
+
+#h4-home {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 119px;
+    top: 3525px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #545454;
+} 
+
+#p-home {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 119px;
+    top: 3565px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #545454;
+}
+
+#accounting {
+    position: absolute;
+    width: 109px;
+    height: 110px;
+    left: 650px;
+    top: 3406px;
+}
+
+#h4-accounting {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 539px;
+    top: 3525px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #545454;
+} 
+
+#p-accounting {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 539px;
+    top: 3565px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #545454;
+}
+
+#presentation {
+    position: absolute;
+    width: 109px;
+    height: 110px;
+    left: 1087px;
+    top: 3406px;
+}
+
+#h4-presentation {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 970px;
+    top: 3525px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #545454;
+} 
+
+#p-presentation {
+    position: absolute;
+    width: 345px;
+    height: 96px;
+    left: 970px;
+    top: 3565px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #545454;
+}
+
+.segments #barra {
+    position: absolute;
+    width: 189px;
+    height: 6px;
+    top: 3832px;
 }

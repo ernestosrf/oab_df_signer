@@ -1,5 +1,3 @@
-
-
 html,body{
     margin: 0;
     padding: 0;
@@ -10,7 +8,6 @@ html,body{
 h1 {
     text-transform: uppercase;
     color:#FE705D;
-
 }
 
 span {
@@ -18,22 +15,22 @@ span {
 }
 
 
-/* FIRST PAGE */
+/* MAIN */
+.main {
+    width: 100%;
+}
 .main .container {
     height: 1024px;
-    width: 1513px;
+    width: 100%;
     left: -73px;
     top: 0px;
     border-radius: 0px;
     background-image: url('images/Sem\ Título-2\ copiar.jpg');
 }
 
-.logo {
+.logo img {
     left: 149px;
     top: 55px;
-}
-
-.logo img {
     position: absolute;
     width: 150px;
     height: 116px;
@@ -49,6 +46,9 @@ span {
     line-height: 62px;
     text-align: center;
     letter-spacing: 0.04em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
 }
 
 .subtitulo {
@@ -56,8 +56,11 @@ span {
     width: 996px;
     height: 50px;
     left: 222px;
-    top: 430px;  
+    top: 450px;  
     font-size: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     line-height: 28px;
     text-align: center;
 }
@@ -67,21 +70,37 @@ span {
     width: 272px;
     height: 43px;
     left: 481px;
-    top: 510px;   
+    top: 550px;   
     background: #FFFFFF;
     border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
 
 #see {
     box-sizing: border-box;
     position: absolute;
+    background-color: transparent;
     width: 272px;
     height: 43px;
     left: 765px;
-    top: 510px;
-    
+    top: 550px;    
+    color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
 
 .container p {
@@ -95,12 +114,369 @@ span {
     font-size: 24px;
     color: #c9c9c9;
     position: absolute;
-    left: 51.36%;
-    right: 26.92%;
-    top: 0%;
-    bottom: 0%; 
+    left: 49.07%;
+    top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-bar input[type='button']{
+    background: #FE705D;
+    border-radius: 6px;
+    height: 46px;
+    width: 146px;
+    color: #FFAFA5;
+    font-size: 24px;   
+    border: none; 
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+#contato {
+    margin-top: 10px;
+}
+
+#duvidas {
+    margin-top: 10px;
+}
+
+#validade {
+    margin-top: 10px;
 }
 
 .nav-bar li {
     margin-left: 1em;
+    line-height: 29px;
+}
+
+.main h2 {
+    position: absolute;
+    width: 1058px;
+    height: 39px;
+    left: 204px;
+    top: 1059px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #545454;
+}
+
+.main #documentos {
+    position: absolute;
+    width: 756px;
+    height: 24px;
+    left: 342px;
+    top: 1111px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #545454;
+}
+
+#document {
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    left: 243px;
+    top: 1235px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#h4-document {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 138px;
+    top: 1313px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;    
+    color: #545454;
+}
+
+#p-document {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 138px;
+    top: 1353px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;    
+    color: #545454;
+}
+
+#group {
+    position: absolute;
+    width: 119px;
+    height: 115px;
+    left: 650px;
+    top: 1235px;
+}
+
+#h4-group {
+    position: absolute;
+    width: 322px;
+    height: 69px;
+    left: 559px;
+    top: 1313px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #545454;
+    }
+
+#p-group {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 559px;
+    top: 1353px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;    
+    color: #545454;
+}
+
+#contract {
+    position: absolute;
+    width: 99px;
+    height: 95px;
+    left: 1087px;
+    top: 1235px;
+}
+
+#h4-contract {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 980px;
+    top: 1313px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;    
+    color: #545454;
+    }
+
+#p-contract {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 980px;
+    top: 1353px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;    
+    color: #545454;
+}
+
+#shield {
+    position: absolute;
+    width: 97px;
+    height: 103px;
+    left: 250px;
+    top: 1539px;
+}
+
+#h4-shield {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 138px;
+    top: 1625px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;   
+    color: #545454;
+}
+
+#p-shield {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 138px;
+    top: 1665px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #545454;
+}
+
+#regulation {
+    position: absolute;
+    width: 97px;
+    height: 103px;
+    left: 650px;
+    top: 1539px;
+}
+
+#h4-regulation {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 539px;
+    top: 1625px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;   
+    color: #545454;
+}
+
+#p-regulation {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 559px;
+    top: 1665px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #545454;
+}
+#recycle {
+    position: absolute;
+    width: 97px;
+    height: 103px;
+    left: 1087px;
+    top: 1539px;
+}
+
+#h4-recycle {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 970px;
+    top: 1625px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;   
+    color: #545454;
+}
+
+#p-recycle {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    left: 980px;
+    top: 1665px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    color: #545454;
+}
+
+.main #barra {
+    position: absolute;
+    width: 189px;
+    height: 6px;
+    top: 2037px;
+}
+
+/* BLOCKCHAIN */
+
+.blockchain h2 {
+    position: absolute;
+    width: 170px;
+    height: 39px;
+    left: 600px;
+    top: 2091px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #545454;    
+}
+
+.blockchain p {
+    position: absolute;
+    width: 1340px;
+    height: 155px;
+    left: 50px;
+    top: 2155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #545454;
+}
+
+#maos {
+    position: absolute;
+    width: 607px;
+    height: 567px;
+    left: 416px;
+    top: 2251px;
+}
+
+.blockchain button {
+    position: absolute;
+    left: 516px;
+    top: 2851px;
+    background: #545454;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#barra {
+    left: 600px;
+}
+.blockchain #barra {
+    position: absolute;
+    width: 189px;
+    height: 6px;
+    top: 3088px;
 }

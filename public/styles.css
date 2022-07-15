@@ -4,6 +4,7 @@ html,body{
     width: 100%;
     position: relative;
 }
+
 button {
     border: transparent;
     cursor: pointer;
@@ -21,16 +22,13 @@ span {
 
 
 /* MAIN */
-.main {
-    width: 100%;
-}
 .main .container {
     height: 1024px;
     width: 100%;
     left: -73px;
     top: 0px;
     border-radius: 0px;
-    background-image: url('images/Sem\ Título-2\ copiar.jpg');
+    background-image: url('images/Imaguem.jpg');
 }
 
 .logo img {
@@ -134,6 +132,8 @@ span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
+    border: transparent;
+    cursor: pointer;
 }
 
 #contato {
@@ -856,7 +856,7 @@ span {
     position: absolute;
     width: 214px;
     height: 250px;
-    left: 57px;    
+    left: 47px;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -872,7 +872,7 @@ span {
     width: 214px;
     height: 250px;
     top: 90px;
-    left: 57px;    
+    left: 47px;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -887,7 +887,7 @@ span {
     position: absolute;
     height: 43px;
     width: 138px;
-    left: 95px;
+    left: 85px;
     top: 350px;
     border-radius: 6px;  
     background-color: #FF3317;
@@ -1063,3 +1063,156 @@ span {
     height: 6px;
     top: 6000px;
 }
+
+/* HELP */
+
+.help h2 {
+    position: absolute;
+    width: 694px;
+    height: 39px;
+    left: 343px;
+    top: 6146px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;   
+    text-align: center;    
+    color: #545454;
+}
+
+.help h4 {
+    position: absolute;
+    width: 464px;
+    height: 25px;
+    left: 456px;
+    top: 6195px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;   
+    color: #545454;    
+}
+
+.help #esq {
+    position: absolute;
+    width: 547px;
+    height: 582px;
+    left: 76px;
+    top: 6317px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #545454;    
+}
+
+.help #dir {
+    position: absolute;
+    width: 547px;
+    height: 582px;
+    left: 817px;
+    top: 6317px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;    
+    color: #545454;    
+}
+
+.help #barra {
+    position: absolute;
+    width: 189px;
+    height: 6px;
+    top: 6938px;
+}
+
+/* SOCIAL-MEDIA */
+.social-media #fb {
+    position: absolute;
+    width: 38px;
+    height: 39px;
+    left: 635px;
+    top: 7153px; 
+    filter: brightness(0);     
+}
+
+.social-media #tt {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 680px;
+    top: 7153px;  
+    filter: brightness(0);   
+}
+
+.social-media #yt {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 726px;
+    top: 7152px;  
+    filter: brightness(0);  
+}
+
+.social-media h2 {
+    position: absolute;
+    width: 372px;
+    height: 39px;
+    left: 534px;
+    top: 7206px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #545454;
+}
+
+.social-media h4 {
+    position: absolute;
+    width: 368px;
+    height: 20px;
+    left: 510px;
+    top: 7247px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #545454;
+}
+
+.social-media button {
+    position: absolute;
+    width: 450px ;
+    height: 43px;
+    left: 490px;
+    top: 7320px;   
+    background: #545454;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;    
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 429px;
+    left: 0px;
+    top: 7640px;  
+    background: #545454;
+}
+

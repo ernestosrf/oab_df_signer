@@ -6,7 +6,7 @@
 html,body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1300px;
     position: relative;
 }
 
@@ -28,11 +28,12 @@ span {
 /* MAIN */
 .main .container {
     height: 1024px;
-    width: 100%;
+    width: 1400px;
     left: -73px;
     top: 0px;
     border-radius: 0px;
     background-image: url('images/Imaguem.jpg');
+    background-size: 100% 1024px;
 }
 
 .logo img {
@@ -89,6 +90,12 @@ span {
     text-align: center;
 }
 
+#trial:hover{
+    background-color:transparent ;
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+}
+
 #see {
     box-sizing: border-box;
     position: absolute;
@@ -106,6 +113,11 @@ span {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+}
+
+#see:hover{
+    background-color:#fff ;
+    color: black;
 }
 
 .container p {
@@ -1143,7 +1155,7 @@ span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 18px;    
     color: #545454;    
 }
@@ -1156,10 +1168,14 @@ span {
     top: 6317px;    
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 18px;    
     color: #545454;    
+}
+
+.help span {
+    color: black;
 }
 
 .help #barra {
@@ -1251,7 +1267,7 @@ span {
 
 footer {
     position: absolute;
-    width: 100%;
+    width: 1390px;
     height: 429px;
     left: 0px;
     top: 7500px;  

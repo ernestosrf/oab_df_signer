@@ -664,6 +664,14 @@ span {
 
 /* JURIDIC */
 
+.juridic a {
+    color: #545454;
+    line-height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
 .juridic h2 {
     position: absolute;
     width: 308px;

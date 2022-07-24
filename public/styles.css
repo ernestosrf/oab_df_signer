@@ -773,7 +773,7 @@ span {
     position: absolute;
     width: 290px;
     height: 71px;
-    left: 189px;
+    left: 119px;
     top: 5373px;    
     background: #EAE8E8;
 }
@@ -793,7 +793,7 @@ span {
     position: absolute;
     width: 290px;
     height: 418px;
-    left: 189px;
+    left: 119px;
     top: 5443px;    
     background: #F4F4F4;  
 
@@ -854,9 +854,9 @@ span {
 
 .tcontainer-standard {
     position: absolute;
-    width: 302px;
+    width: 372px;
     height: 107px;
-    left: 479px;
+    left: 409px;
     top: 5273px;    
     background: #FF8070;
 }
@@ -875,7 +875,7 @@ span {
 .tcontainer-standard p {
     position: absolute;
     top: 60px;
-    left: -80px;
+    left: -40px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -888,9 +888,9 @@ span {
 
 .container-standard {
     position: absolute;
-    width: 302px;
+    width: 372px;
     height: 457px;
-    left: 479px;
+    left: 409px;
     top: 5380px;    
     background: #FE705D;  
 }
@@ -899,7 +899,7 @@ span {
     position: absolute;
     width: 214px;
     height: 250px;
-    left: 47px;    
+    left: 87px;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -915,7 +915,7 @@ span {
     width: 214px;
     height: 250px;
     top: 90px;
-    left: 47px;    
+    left: 87px;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -930,7 +930,7 @@ span {
     position: absolute;
     height: 43px;
     width: 138px;
-    left: 85px;
+    left: 125px;
     top: 350px;
     border-radius: 6px;  
     background-color: #FF3317;
